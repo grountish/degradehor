@@ -1,0 +1,2 @@
+# degradehor
+degradado + hora actual.
