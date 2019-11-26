@@ -1,9 +1,16 @@
-let array = [4,3,5,33];
-const plusNumero = () => {
-	for ( let i = 0; i < 33; i++){
-		console.log(Date);
-	}
-
-	}
-
-plusNumero();
+function gettime() {
+    var date= new Date();
+    var hr = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    if(m < 10)
+    {
+        m = "0" + m
+    }
+    if(s < 10)
+    {
+        s = "0" + s
+    }
+    document.clockform.clock.value = hr + ":" + m + ":" + s;
+    setTimeout("gettime()",100)
+}
