@@ -1,4 +1,24 @@
 body {
-    margin: 20 auto;
-    font-size: 44px;
+    background: linear-gradient(62deg, #3ff9c9, #ae3ff9);
+    
+    
+    -webkit-animation: AnimationName 18s ease infinite;
+    -moz-animation: AnimationName 18s ease infinite;
+    animation: AnimationName 18s ease infinite;
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:66% 0%}
+        50%{background-position:35% 100%}
+        100%{background-position:66% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:66% 0%}
+        50%{background-position:35% 100%}
+        100%{background-position:66% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:66% 0%}
+        50%{background-position:35% 100%}
+        100%{background-position:66% 0%}
+    }
 }
