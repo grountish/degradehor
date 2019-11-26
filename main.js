@@ -14,3 +14,8 @@ function gettime() {
     document.clockform.clock.value = hr + ":" + m + ":" + s;
     setTimeout("gettime()",100)
 }
+function myFunction() {
+	setInterval(function(){ document.getElementById("demo").innerHTML = Math.random(); }, 1100);
+  }
+  myFunction();
+  
